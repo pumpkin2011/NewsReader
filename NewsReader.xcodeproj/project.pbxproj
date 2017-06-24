@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		0E7693771EFE048900B847DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7693761EFE048900B847DB /* main.m */; };
 		0E76937A1EFE048900B847DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7693791EFE048900B847DB /* AppDelegate.m */; };
-		0E76937D1EFE048900B847DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E76937C1EFE048900B847DB /* ViewController.m */; };
+		0E76937D1EFE048900B847DB /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E76937C1EFE048900B847DB /* HomePage.m */; };
 		0E7693801EFE048900B847DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E76937E1EFE048900B847DB /* Main.storyboard */; };
 		0E7693821EFE048900B847DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E7693811EFE048900B847DB /* Assets.xcassets */; };
 		0E7693851EFE048900B847DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E7693831EFE048900B847DB /* LaunchScreen.storyboard */; };
+		0E7693941EFE062000B847DB /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = 0E7693931EFE062000B847DB /* Readme */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,15 @@
 		0E7693761EFE048900B847DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E7693781EFE048900B847DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0E7693791EFE048900B847DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0E76937B1EFE048900B847DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0E76937C1EFE048900B847DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0E76937B1EFE048900B847DB /* HomePage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePage.h; sourceTree = "<group>"; };
+		0E76937C1EFE048900B847DB /* HomePage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
 		0E76937F1EFE048900B847DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E7693811EFE048900B847DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E7693841EFE048900B847DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E7693861EFE048900B847DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E76938C1EFE050000B847DB /* Readme */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
+		0E7693931EFE062000B847DB /* Readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
+		0E7693971EFE068400B847DB /* Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 		0E7693691EFE048900B847DB = {
 			isa = PBXGroup;
 			children = (
+				0E76938C1EFE050000B847DB /* Readme */,
 				0E7693741EFE048900B847DB /* NewsReader */,
 				0E7693731EFE048900B847DB /* Products */,
 			);
@@ -58,13 +63,17 @@
 		0E7693741EFE048900B847DB /* NewsReader */ = {
 			isa = PBXGroup;
 			children = (
+				0E76938D1EFE055E00B847DB /* Global */,
+				0E76938E1EFE057000B847DB /* Controller */,
+				0E76938F1EFE058700B847DB /* Model */,
+				0E7693901EFE059100B847DB /* Network */,
+				0E7693911EFE05AF00B847DB /* DB */,
+				0E7693921EFE05EE00B847DB /* Utility */,
+				0E7693951EFE065800B847DB /* ThirdSDK */,
+				0E7693981EFE06A100B847DB /* Resources */,
+				0E7693971EFE068400B847DB /* Defines.h */,
 				0E7693781EFE048900B847DB /* AppDelegate.h */,
 				0E7693791EFE048900B847DB /* AppDelegate.m */,
-				0E76937B1EFE048900B847DB /* ViewController.h */,
-				0E76937C1EFE048900B847DB /* ViewController.m */,
-				0E76937E1EFE048900B847DB /* Main.storyboard */,
-				0E7693811EFE048900B847DB /* Assets.xcassets */,
-				0E7693831EFE048900B847DB /* LaunchScreen.storyboard */,
 				0E7693861EFE048900B847DB /* Info.plist */,
 				0E7693751EFE048900B847DB /* Supporting Files */,
 			);
@@ -77,6 +86,116 @@
 				0E7693761EFE048900B847DB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E76938D1EFE055E00B847DB /* Global */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		0E76938E1EFE057000B847DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E76939B1EFE06E800B847DB /* Cell */,
+				0E7693991EFE06C400B847DB /* Page */,
+				0E76939A1EFE06CB00B847DB /* Widget */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0E76938F1EFE058700B847DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0E7693901EFE059100B847DB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		0E7693911EFE05AF00B847DB /* DB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+		0E7693921EFE05EE00B847DB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				0E7693931EFE062000B847DB /* Readme */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		0E7693951EFE065800B847DB /* ThirdSDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ThirdSDK;
+			sourceTree = "<group>";
+		};
+		0E7693981EFE06A100B847DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E76939C1EFE070000B847DB /* Config */,
+				0E76939D1EFE070800B847DB /* Image */,
+				0E76939E1EFE071900B847DB /* Xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0E7693991EFE06C400B847DB /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				0E76937B1EFE048900B847DB /* HomePage.h */,
+				0E76937C1EFE048900B847DB /* HomePage.m */,
+			);
+			name = Page;
+			sourceTree = "<group>";
+		};
+		0E76939A1EFE06CB00B847DB /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Widget;
+			sourceTree = "<group>";
+		};
+		0E76939B1EFE06E800B847DB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		0E76939C1EFE070000B847DB /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		0E76939D1EFE070800B847DB /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				0E7693811EFE048900B847DB /* Assets.xcassets */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		0E76939E1EFE071900B847DB /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				0E76937E1EFE048900B847DB /* Main.storyboard */,
+				0E7693831EFE048900B847DB /* LaunchScreen.storyboard */,
+			);
+			name = Xib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E7693941EFE062000B847DB /* Readme in Resources */,
 				0E7693851EFE048900B847DB /* LaunchScreen.storyboard in Resources */,
 				0E7693821EFE048900B847DB /* Assets.xcassets in Resources */,
 				0E7693801EFE048900B847DB /* Main.storyboard in Resources */,
@@ -151,7 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E76937D1EFE048900B847DB /* ViewController.m in Sources */,
+				0E76937D1EFE048900B847DB /* HomePage.m in Sources */,
 				0E76937A1EFE048900B847DB /* AppDelegate.m in Sources */,
 				0E7693771EFE048900B847DB /* main.m in Sources */,
 			);
@@ -314,6 +434,7 @@
 				0E76938B1EFE048900B847DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

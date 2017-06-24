@@ -6,13 +6,13 @@
 //  Copyright © 2017 lee. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HomePage.h"
 
-@interface ViewController ()
+@interface HomePage ()
 
 @end
 
-@implementation ViewController
+@implementation HomePage
 
 - (void)viewDidLoad {
     [super viewDidLoad];
