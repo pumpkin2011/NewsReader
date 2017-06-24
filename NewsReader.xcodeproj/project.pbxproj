@@ -10,10 +10,11 @@
 		0E7693771EFE048900B847DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7693761EFE048900B847DB /* main.m */; };
 		0E76937A1EFE048900B847DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7693791EFE048900B847DB /* AppDelegate.m */; };
 		0E76937D1EFE048900B847DB /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E76937C1EFE048900B847DB /* HomePage.m */; };
-		0E7693801EFE048900B847DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E76937E1EFE048900B847DB /* Main.storyboard */; };
 		0E7693821EFE048900B847DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E7693811EFE048900B847DB /* Assets.xcassets */; };
-		0E7693851EFE048900B847DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E7693831EFE048900B847DB /* LaunchScreen.storyboard */; };
 		0E7693941EFE062000B847DB /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = 0E7693931EFE062000B847DB /* Readme */; };
+		0E7693AF1EFE1D3800B847DB /* FxBasePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7693AE1EFE1D3800B847DB /* FxBasePage.m */; };
+		0E7693B21EFE1F6200B847DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E7693B01EFE1F6200B847DB /* LaunchScreen.storyboard */; };
+		0E7693B31EFE1F6200B847DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E7693B11EFE1F6200B847DB /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,13 +24,16 @@
 		0E7693791EFE048900B847DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0E76937B1EFE048900B847DB /* HomePage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePage.h; sourceTree = "<group>"; };
 		0E76937C1EFE048900B847DB /* HomePage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
-		0E76937F1EFE048900B847DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E7693811EFE048900B847DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0E7693841EFE048900B847DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E7693861EFE048900B847DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E76938C1EFE050000B847DB /* Readme */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
 		0E7693931EFE062000B847DB /* Readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
 		0E7693971EFE068400B847DB /* Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		0E7693A91EFE19C300B847DB /* NewsReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewsReader-Prefix.pch"; sourceTree = "<group>"; };
+		0E7693AD1EFE1D3800B847DB /* FxBasePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FxBasePage.h; sourceTree = "<group>"; };
+		0E7693AE1EFE1D3800B847DB /* FxBasePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FxBasePage.m; sourceTree = "<group>"; };
+		0E7693B01EFE1F6200B847DB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E7693B11EFE1F6200B847DB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +78,6 @@
 				0E76939F1EFE09E600B847DB /* Define */,
 				0E7693781EFE048900B847DB /* AppDelegate.h */,
 				0E7693791EFE048900B847DB /* AppDelegate.m */,
-				0E7693861EFE048900B847DB /* Info.plist */,
 				0E7693751EFE048900B847DB /* Supporting Files */,
 			);
 			path = NewsReader;
@@ -83,7 +86,9 @@
 		0E7693751EFE048900B847DB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0E7693861EFE048900B847DB /* Info.plist */,
 				0E7693761EFE048900B847DB /* main.m */,
+				0E7693A91EFE19C300B847DB /* NewsReader-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -102,7 +107,7 @@
 				0E7693991EFE06C400B847DB /* Page */,
 				0E76939A1EFE06CB00B847DB /* Widget */,
 			);
-			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		0E76938F1EFE058700B847DB /* Model */ = {
@@ -148,16 +153,18 @@
 				0E76939D1EFE070800B847DB /* Image */,
 				0E76939E1EFE071900B847DB /* Xib */,
 			);
-			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		0E7693991EFE06C400B847DB /* Page */ = {
 			isa = PBXGroup;
 			children = (
+				0E7693AD1EFE1D3800B847DB /* FxBasePage.h */,
+				0E7693AE1EFE1D3800B847DB /* FxBasePage.m */,
 				0E76937B1EFE048900B847DB /* HomePage.h */,
 				0E76937C1EFE048900B847DB /* HomePage.m */,
 			);
-			name = Page;
+			path = Page;
 			sourceTree = "<group>";
 		};
 		0E76939A1EFE06CB00B847DB /* Widget */ = {
@@ -178,7 +185,7 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = Config;
+			path = Config;
 			sourceTree = "<group>";
 		};
 		0E76939D1EFE070800B847DB /* Image */ = {
@@ -186,16 +193,16 @@
 			children = (
 				0E7693811EFE048900B847DB /* Assets.xcassets */,
 			);
-			name = Image;
+			path = Image;
 			sourceTree = "<group>";
 		};
 		0E76939E1EFE071900B847DB /* Xib */ = {
 			isa = PBXGroup;
 			children = (
-				0E76937E1EFE048900B847DB /* Main.storyboard */,
-				0E7693831EFE048900B847DB /* LaunchScreen.storyboard */,
+				0E7693B01EFE1F6200B847DB /* LaunchScreen.storyboard */,
+				0E7693B11EFE1F6200B847DB /* Main.storyboard */,
 			);
-			name = Xib;
+			path = Xib;
 			sourceTree = "<group>";
 		};
 		0E76939F1EFE09E600B847DB /* Define */ = {
@@ -203,7 +210,7 @@
 			children = (
 				0E7693971EFE068400B847DB /* Defines.h */,
 			);
-			name = Define;
+			path = Define;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,10 +272,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E7693B21EFE1F6200B847DB /* LaunchScreen.storyboard in Resources */,
 				0E7693941EFE062000B847DB /* Readme in Resources */,
-				0E7693851EFE048900B847DB /* LaunchScreen.storyboard in Resources */,
 				0E7693821EFE048900B847DB /* Assets.xcassets in Resources */,
-				0E7693801EFE048900B847DB /* Main.storyboard in Resources */,
+				0E7693B31EFE1F6200B847DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,31 +287,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E76937D1EFE048900B847DB /* HomePage.m in Sources */,
+				0E7693AF1EFE1D3800B847DB /* FxBasePage.m in Sources */,
 				0E76937A1EFE048900B847DB /* AppDelegate.m in Sources */,
 				0E7693771EFE048900B847DB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		0E76937E1EFE048900B847DB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0E76937F1EFE048900B847DB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0E7693831EFE048900B847DB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0E7693841EFE048900B847DB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0E7693871EFE048900B847DB /* Debug */ = {
@@ -404,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W6K43KA5J6;
+				GCC_PREFIX_HEADER = "NewsReader/NewsReader-prefix.pch";
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lee.NewsReader;
@@ -416,6 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W6K43KA5J6;
+				GCC_PREFIX_HEADER = "NewsReader/NewsReader-prefix.pch";
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lee.NewsReader;
@@ -471,6 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W6K43KA5J6;
+				GCC_PREFIX_HEADER = "NewsReader/NewsReader-prefix.pch";
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lee.NewsReader;
@@ -526,6 +518,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W6K43KA5J6;
+				GCC_PREFIX_HEADER = "NewsReader/NewsReader-prefix.pch";
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lee.NewsReader;
@@ -581,6 +574,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W6K43KA5J6;
+				GCC_PREFIX_HEADER = "NewsReader/NewsReader-prefix.pch";
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lee.NewsReader;

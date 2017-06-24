@@ -1,15 +1,15 @@
 //
-//  ViewController.h
+//  NewsReader-Prefix.pch
 //  NewsReader
 //
 //  Created by Aico on 6/24/17.
 //  Copyright © 2017 lee. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Availability.h>
 
-@interface HomePage : UIViewController
+#ifdef __OBJC__
 
+#import "Defines.h"
 
-@end
-
+#endif

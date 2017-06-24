@@ -7,14 +7,13 @@
 //
 
 #import "AppDelegate.h"
-#import "Defines.h"
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    BASE_ERROR_FUN(self, _cmd, @"error");
+    
     
     return YES;
 }
