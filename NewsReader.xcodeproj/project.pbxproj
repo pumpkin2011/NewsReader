@@ -392,6 +392,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = W6K43KA5J6;
 				GCC_PREFIX_HEADER = "NewsReader/NewsReader-prefix.pch";
 				INFOPLIST_FILE = NewsReader/Info.plist;
@@ -405,6 +406,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = W6K43KA5J6;
 				GCC_PREFIX_HEADER = "NewsReader/NewsReader-prefix.pch";
 				INFOPLIST_FILE = NewsReader/Info.plist;
@@ -461,6 +463,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = W6K43KA5J6;
 				GCC_PREFIX_HEADER = "NewsReader/NewsReader-prefix.pch";
 				INFOPLIST_FILE = NewsReader/Info.plist;
@@ -517,6 +520,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = W6K43KA5J6;
 				GCC_PREFIX_HEADER = "NewsReader/NewsReader-prefix.pch";
 				INFOPLIST_FILE = NewsReader/Info.plist;
@@ -573,6 +577,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = W6K43KA5J6;
 				GCC_PREFIX_HEADER = "NewsReader/NewsReader-prefix.pch";
 				INFOPLIST_FILE = NewsReader/Info.plist;
