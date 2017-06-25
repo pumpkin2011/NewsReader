@@ -15,6 +15,13 @@
 		0E7693AF1EFE1D3800B847DB /* FxBasePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7693AE1EFE1D3800B847DB /* FxBasePage.m */; };
 		0E7693B21EFE1F6200B847DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E7693B01EFE1F6200B847DB /* LaunchScreen.storyboard */; };
 		0E7693B31EFE1F6200B847DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E7693B11EFE1F6200B847DB /* Main.storyboard */; };
+		0E7693B81EFE7BF800B847DB /* BaseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7693B71EFE7BF800B847DB /* BaseInfo.m */; };
+		0E7693BB1EFE7EC800B847DB /* AdvertInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7693BA1EFE7EC800B847DB /* AdvertInfo.m */; };
+		0E7693C71EFF44E800B847DB /* FxJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7693BE1EFF44E800B847DB /* FxJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0E7693C81EFF44E800B847DB /* FxJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7693C01EFF44E800B847DB /* FxJsonBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0E7693C91EFF44E800B847DB /* FxJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7693C21EFF44E800B847DB /* FxJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0E7693CA1EFF44E800B847DB /* FxJsonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7693C41EFF44E800B847DB /* FxJsonUtility.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0E7693CB1EFF44E800B847DB /* FxJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7693C61EFF44E800B847DB /* FxJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +41,21 @@
 		0E7693AE1EFE1D3800B847DB /* FxBasePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FxBasePage.m; sourceTree = "<group>"; };
 		0E7693B01EFE1F6200B847DB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E7693B11EFE1F6200B847DB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0E7693B61EFE7BF800B847DB /* BaseInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseInfo.h; sourceTree = "<group>"; };
+		0E7693B71EFE7BF800B847DB /* BaseInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseInfo.m; sourceTree = "<group>"; };
+		0E7693B91EFE7EC800B847DB /* AdvertInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertInfo.h; sourceTree = "<group>"; };
+		0E7693BA1EFE7EC800B847DB /* AdvertInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertInfo.m; sourceTree = "<group>"; };
+		0E7693BD1EFF44E800B847DB /* FxJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FxJSON.h; sourceTree = "<group>"; };
+		0E7693BE1EFF44E800B847DB /* FxJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FxJSON.m; sourceTree = "<group>"; };
+		0E7693BF1EFF44E800B847DB /* FxJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FxJsonBase.h; sourceTree = "<group>"; };
+		0E7693C01EFF44E800B847DB /* FxJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FxJsonBase.m; sourceTree = "<group>"; };
+		0E7693C11EFF44E800B847DB /* FxJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FxJsonParser.h; sourceTree = "<group>"; };
+		0E7693C21EFF44E800B847DB /* FxJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FxJsonParser.m; sourceTree = "<group>"; };
+		0E7693C31EFF44E800B847DB /* FxJsonUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FxJsonUtility.h; sourceTree = "<group>"; };
+		0E7693C41EFF44E800B847DB /* FxJsonUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FxJsonUtility.m; sourceTree = "<group>"; };
+		0E7693C51EFF44E800B847DB /* FxJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FxJsonWriter.h; sourceTree = "<group>"; };
+		0E7693C61EFF44E800B847DB /* FxJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FxJsonWriter.m; sourceTree = "<group>"; };
+		0E7693CC1EFF4A4800B847DB /* URLDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +135,12 @@
 		0E76938F1EFE058700B847DB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0E7693B61EFE7BF800B847DB /* BaseInfo.h */,
+				0E7693B71EFE7BF800B847DB /* BaseInfo.m */,
+				0E7693B91EFE7EC800B847DB /* AdvertInfo.h */,
+				0E7693BA1EFE7EC800B847DB /* AdvertInfo.m */,
 			);
-			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		0E7693901EFE059100B847DB /* Network */ = {
@@ -142,8 +168,10 @@
 		0E7693951EFE065800B847DB /* ThirdSDK */ = {
 			isa = PBXGroup;
 			children = (
+				0E7693BC1EFF438000B847DB /* JsonFrameWork */,
 			);
 			name = ThirdSDK;
+			path = ThridSDK;
 			sourceTree = "<group>";
 		};
 		0E7693981EFE06A100B847DB /* Resources */ = {
@@ -209,8 +237,27 @@
 			isa = PBXGroup;
 			children = (
 				0E7693971EFE068400B847DB /* Defines.h */,
+				0E7693CC1EFF4A4800B847DB /* URLDefine.h */,
 			);
 			path = Define;
+			sourceTree = "<group>";
+		};
+		0E7693BC1EFF438000B847DB /* JsonFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				0E7693BD1EFF44E800B847DB /* FxJSON.h */,
+				0E7693BE1EFF44E800B847DB /* FxJSON.m */,
+				0E7693BF1EFF44E800B847DB /* FxJsonBase.h */,
+				0E7693C01EFF44E800B847DB /* FxJsonBase.m */,
+				0E7693C11EFF44E800B847DB /* FxJsonParser.h */,
+				0E7693C21EFF44E800B847DB /* FxJsonParser.m */,
+				0E7693C31EFF44E800B847DB /* FxJsonUtility.h */,
+				0E7693C41EFF44E800B847DB /* FxJsonUtility.m */,
+				0E7693C51EFF44E800B847DB /* FxJsonWriter.h */,
+				0E7693C61EFF44E800B847DB /* FxJsonWriter.m */,
+			);
+			name = JsonFrameWork;
+			path = JsonFramework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,8 +335,15 @@
 			files = (
 				0E76937D1EFE048900B847DB /* HomePage.m in Sources */,
 				0E7693AF1EFE1D3800B847DB /* FxBasePage.m in Sources */,
+				0E7693C81EFF44E800B847DB /* FxJsonBase.m in Sources */,
+				0E7693C71EFF44E800B847DB /* FxJSON.m in Sources */,
+				0E7693CA1EFF44E800B847DB /* FxJsonUtility.m in Sources */,
+				0E7693B81EFE7BF800B847DB /* BaseInfo.m in Sources */,
+				0E7693C91EFF44E800B847DB /* FxJsonParser.m in Sources */,
 				0E76937A1EFE048900B847DB /* AppDelegate.m in Sources */,
+				0E7693CB1EFF44E800B847DB /* FxJsonWriter.m in Sources */,
 				0E7693771EFE048900B847DB /* main.m in Sources */,
+				0E7693BB1EFE7EC800B847DB /* AdvertInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +448,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = W6K43KA5J6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NewsReader/NewsReader-prefix.pch";
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -408,6 +463,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = W6K43KA5J6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NewsReader/NewsReader-prefix.pch";
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -465,6 +521,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = W6K43KA5J6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NewsReader/NewsReader-prefix.pch";
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -522,6 +579,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = W6K43KA5J6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NewsReader/NewsReader-prefix.pch";
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -579,6 +637,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = W6K43KA5J6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NewsReader/NewsReader-prefix.pch";
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
